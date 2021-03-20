@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-bike/static/css/main.ccc0afce.chunk.css",
-    "main.js": "/my-bike/static/js/main.7b9d36ce.chunk.js",
-    "main.js.map": "/my-bike/static/js/main.7b9d36ce.chunk.js.map",
+    "main.css": "/my-bike/static/css/main.d1be18ab.chunk.css",
+    "main.js": "/my-bike/static/js/main.0fca9c75.chunk.js",
+    "main.js.map": "/my-bike/static/js/main.0fca9c75.chunk.js.map",
     "runtime-main.js": "/my-bike/static/js/runtime-main.eecb6471.js",
     "runtime-main.js.map": "/my-bike/static/js/runtime-main.eecb6471.js.map",
     "static/js/2.70422b91.chunk.js": "/my-bike/static/js/2.70422b91.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.d54c633c.chunk.js": "/my-bike/static/js/3.d54c633c.chunk.js",
     "static/js/3.d54c633c.chunk.js.map": "/my-bike/static/js/3.d54c633c.chunk.js.map",
     "index.html": "/my-bike/index.html",
-    "static/css/main.ccc0afce.chunk.css.map": "/my-bike/static/css/main.ccc0afce.chunk.css.map",
+    "static/css/main.d1be18ab.chunk.css.map": "/my-bike/static/css/main.d1be18ab.chunk.css.map",
     "static/js/2.70422b91.chunk.js.LICENSE.txt": "/my-bike/static/js/2.70422b91.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.eecb6471.js",
     "static/js/2.70422b91.chunk.js",
-    "static/css/main.ccc0afce.chunk.css",
-    "static/js/main.7b9d36ce.chunk.js"
+    "static/css/main.d1be18ab.chunk.css",
+    "static/js/main.0fca9c75.chunk.js"
   ]
 }
