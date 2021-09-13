@@ -1,22 +1,22 @@
-import { useState, useEffect } from 'react';
-import RouteBox from './route-box';
-import Header from './header';
-import './App.css';
-import { routes2Home, routes2Work } from './routes';
+import { useState, useEffect } from "react";
+import RouteBox from "./route-box";
+import Header from "./header";
+import "./App.css";
+import { routes2Home, routes2Work } from "./routes";
 
 function App() {
   const safetyCount = 3;
 
   const [stops, setStops] = useState([]);
   const [target, setTarget] = useState(() => {
-    return new Date().getHours() >= 12 ? 'home' : 'work';
+    return new Date().getHours() >= 12 ? "home" : "work";
   });
   const [selectedView, setSelectedView] = useState([]);
   useEffect(() => {
     const v1Url =
-      'https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json';
+      "https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json";
     const v2Url =
-      'https://apis.youbike.com.tw/api/front/station/all?lang=tw&type=2';
+      "https://apis.youbike.com.tw/api/front/station/all?lang=tw&type=2";
 
     Promise.all([
       fetch(v1Url).then((res) => res.json()),
@@ -36,7 +36,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    setSelectedView(target === 'work' ? routes2Work : routes2Home);
+    setSelectedView(target === "work" ? routes2Work : routes2Home);
   }, [target]);
 
   return (
