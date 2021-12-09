@@ -1,22 +1,22 @@
 const nicknames = [
-  { station_no: "0037", nickname: "捷運東門站Exit4" },
-  { station_no: "0362", nickname: "和平金山路口" },
+  { station_no: "0037", nickname: "捷運東門站 Exit 4" },
+  { station_no: "0362", nickname: "師大" },
   { station_no: "0032", nickname: "捷運六張犁站" },
   { station_no: "0087", nickname: "捷運大安站" },
-  { station_no: "0074", nickname: "捷運東門站Exit6" },
+  { station_no: "0074", nickname: "捷運東門站 Exit 6" },
   { station_no: "500101019", nickname: "和平臥龍街口" },
   { station_no: "500101101", nickname: "捷運六張犁站" },
-  { station_no: "500106066", nickname: "捷運東門站Exit6" },
-  { station_no: "500101134", nickname: "捷運大安站Exit4" },
-  { station_no: "500101117", nickname: "捷運東門站Exit3" },
+  { station_no: "500106066", nickname: "捷運東門站 Exit 6" },
+  { station_no: "500101134", nickname: "捷運大安站 Exit 4" },
+  { station_no: "500101117", nickname: "捷運東門站 Exit 3" },
   { station_no: "500101002", nickname: "捷運科技大樓站" },
   { station_no: "500101001", nickname: "捷運科技大樓站" },
 
-  { station_no: "0126", nickname: "敦化基隆路口" },
-  { station_no: "0405", nickname: "國北教正門" },
+  { station_no: "0126", nickname: "Trend Micro" },
+  { station_no: "0405", nickname: "北教大 正門" },
   { station_no: "500101092", nickname: "和平實小" },
-  { station_no: "500101091", nickname: "國北教側門" },
-  { station_no: "500101123", nickname: "敦化基隆路口" },
+  { station_no: "500101091", nickname: "北教大 側門" },
+  { station_no: "500101123", nickname: "Trend Micro" },
 ];
 const routes2Work = [
   {
