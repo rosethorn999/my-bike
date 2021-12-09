@@ -26,6 +26,18 @@ function Header(props) {
           <span className="off">下班🌙</span>
         </div>
       </label>
+
+      <div className="counter-block">
+        <button onClick={(o) => props.onSetSafetyCount(props.safetyCount - 1)}>
+          🔻
+        </button>
+        <span className="safety-count-text" title="safety count">
+          {props.safetyCount}
+        </span>
+        <button onClick={(o) => props.onSetSafetyCount(props.safetyCount + 1)}>
+          🔺
+        </button>
+      </div>
     </div>
   );
 }
