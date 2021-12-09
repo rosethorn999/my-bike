@@ -4,21 +4,30 @@ function RouteBox(props) {
   return (
     <div className="container">
       <div className="item">
-        <span>
-          <b>{props.from.name_tw}</b>
-        </span>
-        <p className="space-info">
-          可借&nbsp;{props.from.available_spaces}&nbsp;台
-        </p>
+        {/* {JSON.stringify(props.from)} */}
+        {props.from.map((o, index) => {
+          return (
+            <div key={index}>
+              <b>{o.nickname}</b>
+              <p className="space-info">
+                可借&nbsp;{o.available_spaces}&nbsp;台
+              </p>
+            </div>
+          );
+        })}
       </div>
       <div className="item">
-        <div className="triangle" />
+        <div className={`triangle ${props.version === "v1" && "v1-station"}`} />
       </div>
       <div className="item">
-        <span>
-          <b>{props.to.name_tw}</b>
-        </span>
-        <p className="space-info">可停&nbsp;{props.to.empty_spaces}&nbsp;台</p>
+        {props.to.map((o, index) => {
+          return (
+            <div key={index}>
+              <b>{o.nickname}</b>
+              <p className="space-info">可停&nbsp;{o.empty_spaces}&nbsp;台</p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

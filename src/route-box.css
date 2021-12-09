@@ -24,6 +24,9 @@
   border-width: 40px 0 40px 20px;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.7);
 }
+.v1-station {
+  border-color: transparent transparent transparent rgba(241, 149, 88, 0.7);
+}
 ul {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */

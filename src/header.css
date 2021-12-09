@@ -82,3 +82,16 @@ input:checked + .slider .off {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.counter-block {
+  float: right;
+}
+.safety-count-text {
+  color: #fff;
+  font-size: 1.5rem;
+}
+button {
+  background: #000;
+  border: none;
+  font-size: 1.5rem;
+}
